@@ -9,7 +9,7 @@ import { IndexService } from '../index.service';
 })
 export class IndexComponent implements OnInit {
 
-  sample: Sample;
+  sample: Sample = new Sample;
 
   constructor(private indexService: IndexService) { }
 
